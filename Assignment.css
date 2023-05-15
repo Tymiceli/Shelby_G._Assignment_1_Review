@@ -1,0 +1,110 @@
+body{
+    margin:0px;
+    font-family:sans-serif;
+    background-color: rgb(72, 20, 241);
+
+}
+
+.top-section{
+    color:white;
+    /* Put for whole page */
+    display:flex; 
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    /* justify-content: center;  */
+}
+
+.signIn{
+    color:white;
+}
+
+.button1{
+    padding: 10px 25px;
+    border-radius: 40px;
+    border: 0px;
+    color:white;
+    background-image:linear-gradient( to right, rgb(234, 146, 58), rgb(190, 112, 9));
+    font-size: 10px; 
+    font-weight: bold;
+}
+
+.headline-1{
+    font-size: 40px;
+    
+    /* padding-top: 150px; */
+    /* line-height:9px; */
+}
+
+.headline-2{
+    font-size: 25px;
+    font-weight:bold;   
+}
+
+.paragraph-1{
+    font-size:x-small;
+}
+/* .button2{
+    padding: 10px 15px; 
+    border-radius: 40px;
+    border:0px;
+    color:white;
+    background-image:linear-gradient( to right, rgb(234, 146, 58), rgb(190, 112, 9));
+    font-size:60%;
+    font-weight:bold;
+} */
+
+.middleSection{
+    color: rgb(187, 185, 185);
+    padding-bottom: 80px;
+    font-size: 12px;
+    text-align: center;
+}
+    
+.bottomSection{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0px;
+    color: white;
+}
+
+/* Tyler's Additions */
+
+input[type='button'] {
+	border: 0px;
+	border-radius: 25px;
+	color: white;
+	font-weight: bold;
+	padding: 10px 25px;
+	background: linear-gradient(to right, RGB(234, 158, 61) , RGB(238, 125, 56));
+}
+
+.patented-tech {
+    flex: 0 1 500px;
+	margin-right: 50px;
+}
+
+.brain-behavior {
+    flex: 0 1 500px;
+}
+
+.picture-1 {
+    flex: 0 1 900px;
+    z-index: 0;
+}
+
+.copy-1 {
+	flex: 0 0 450px;
+	color: RGB(201, 184, 252);
+	z-index: 1;
+    margin-right: -69px;
+    margin-top: 45px;
+}
+
+.section-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
